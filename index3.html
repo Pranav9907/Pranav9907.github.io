@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Marketing Agency</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f4f4f4;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      padding: 1rem 2rem;
+    }
+
+    nav .logo a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav .nav-links {
+      list-style: none;
+      display: flex;
+    }
+
+    nav .nav-links li {
+      margin-left: 1.5rem;
+    }
+
+    nav .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1500') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero-content h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-content p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .cta-button {
+      background-color: #ff6f61;
+      color: #fff;
+      padding: 0.8rem 2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    .services {
+      padding: 4rem 2rem;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .services h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .service-cards {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 2rem;
+      margin: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 250px;
+    }
+
+    .card i {
+      font-size: 2rem;
+      color: #ff6f61;
+      margin-bottom: 1rem;
+    }
+
+    .about {
+      padding: 4rem 2rem;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+
+    .about h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact {
+      padding: 4rem 2rem;
+      text-align: center;
+      background-color: #fff;
+    }
+
+    .contact h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .contact form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact input, .contact textarea {
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact button {
+      background-color: #ff6f61;
+      color: #fff;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    footer .social-icons {
+      margin-top: 1rem;
+    }
+
+    footer .social-icons a {
+      color: #fff;
+      margin: 0 0.5rem;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">
+      <a href="#">DigitalPro</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Homepage Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Boost Your Business with Digital Marketing</h1>
+      <p>We help brands grow with data-driven strategies and creative solutions.</p>
+      <a href="#contact" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <i class="fas fa-chart-line"></i>
+        <h3>SEO Optimization</h3>
+        <p>Improve your search rankings and drive organic traffic.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-ad"></i>
+        <h3>PPC Advertising</h3>
+        <p>Targeted ads to reach your ideal audience.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-users"></i>
+        <h3>Social Media Marketing</h3>
+        <p>Engage your audience and grow your brand.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are a team of digital marketing experts passionate about helping businesses succeed online. Our strategies are tailored to your unique goals, ensuring maximum ROI.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 DigitalPro. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Form submission handling
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert('Thank you for reaching out! We will get back to you soon.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
